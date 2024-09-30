@@ -10,6 +10,7 @@
         search the ARCoder web: <input id="address"> <button onClick="look()">search</button>
         <div id="page"></div>
         <script>
+            localStorage.setItem('ARCoder.org', document.getElementById('s').value);
             function saver (){
                 localStorage.setItem('ARCoder.org', document.getElementById('s').value);
             }
