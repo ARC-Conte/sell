@@ -20,7 +20,7 @@
             function look (){
                 var page = document.getElementById("address").value;
                 if(page==="gobble.anti"){
-                    document.getElementById("page").innerHTML="";
+                    document.getElementById("page").innerHTML=localStorage.getItem("gobble.anti");
                 }else if(page==="ARCoder.org/91413"){
                     document.getElementById("page").innerHTML="<textarea id='s' value="+localStorage.getItem('ARCoder.org')+"></textarea><button onclick='savera()'>save</button>";                    
                 }else if(page==="ARCoder.org"){
