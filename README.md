@@ -22,13 +22,11 @@
                 if(page==="gobble.anti"){
                     document.getElementById("page").innerHTML="";
                 }else if(page==="ARCoder.org/91413"){
-                    document.getElementById("page").innerHTML="<textarea id='s' value="+localStorage.getItem('ARCoder.org')+"></textarea><button onclick='savera()'>save</button>";
-                    
+                    document.getElementById("page").innerHTML="<textarea id='s' value="+localStorage.getItem('ARCoder.org')+"></textarea><button onclick='savera()'>save</button>";                    
                 }else if(page==="ARCoder.org"){
                     document.getElementById("page").innerHTML=localStorage.getItem("ARCoder.org");
                 }else if(page==="gobble.anti/6711"){
-                    document.getElementById("page").innerHTML="<textarea id='s' value="+localStorage.getItem('gobble.anti')+"></textarea><button onclick='saverc()'>save</button>";
-                    
+                    document.getElementById("page").innerHTML="<textarea id='s' value="+localStorage.getItem('gobble.anti')+"></textarea><button onclick='saverc()'>save</button>";                    
                 }
             };
         </script>
