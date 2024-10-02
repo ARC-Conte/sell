@@ -13,9 +13,10 @@
             function savera (){
                 localStorage.setItem('ARCoder.org', document.getElementById('s').value);
             }
-            localStorage.setItem('gobble.anti', "0");
-            function saverc (){
-                localStorage.setItem('gobble.anti', document.getElementById('s').value);
+            localStorage.setItem('gobble.anti', "0"); 
+            localStorage.setItem('ARCoder.org', "a");
+            function saverc (){    
+            localStorage.setItem('gobble.anti', document.getElementById('s').value);            
             }
             function look (){
                 var page = document.getElementById("address").value;
